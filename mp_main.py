@@ -24,7 +24,7 @@ def check_internet():
         Label(sho, image=img1).place(height=100, width=100, relx=0.1, rely=0.3)
         sho.mainloop()
         quit()
-#jhwwnrjyiukhtily
+
 
 def sendmail(product_name, URL, desired_price, price, ratings):
     '''Function called when the email needs to be sent '''
@@ -43,10 +43,7 @@ def sendmail(product_name, URL, desired_price, price, ratings):
     server.quit()
     nxt1.destroy()
 
-'''https://www.amazon.in/dp/B09JVXCG25/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B09JVXCG25&pd_rd_w=NTS5e&pf_rd_p=4e9225d2-7473-4eb0-95d5-
-670190275218&pd_rd_wg=GLvGP&pf_rd_r=NFEA1MQSBX6VKEGRTTWC&pd_rd_r=141b5ffb-3d14-421d-b4c7-a0fcf3fc354f&smid=A3LJ4A2SJL684P&spLa=ZW5j
-cnlwdGVkUXVhbGlmaWVyPUFXQjA1U0pWQ0VPJmVuY3J5cHRlZElkPUEwNDE2ODcwNTRLOTRWTktCWkZHJmVuY3J5cHRlZEFkSWQ9QTA2MTQyOTdWNFBUSU85OEFUM0gmd2l
-kZ2V0TmFtZT1zcF9kZXRhaWwmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl'''
+
 def amazon():
     try:
         URL = urlentry.get()
@@ -66,7 +63,7 @@ def amazon():
     except Exception as e:
         messagebox.showwarning("WARNING", "Please enter required details")
 
-#https://www.flipkart.com/samsung-23-l-solo-microwave-oven/p/itm3203899d6a53d?pid=MRCDWBZXKKQFSVFQ&marketplace=FLIPKART
+
 def flipkart():
     try:
         URL = urlentry.get()
